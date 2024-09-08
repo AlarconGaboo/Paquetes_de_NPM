@@ -1,0 +1,112 @@
+alarc@YoshiminGabo MINGW64 ~ (master)
+$ cd '/c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM'
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM (master)
+$ mkdir gestor-NPM cd gestor-NPM
+mkdir: cannot create directory ‘gestor-NPM’: File exists
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM (master)
+$ cd gestor-NPM
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git init
+Initialized empty Git repository in C:/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM/.git/
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ echo "node_modules/" > .gitignore
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ npm install lodash express react axios dotenv
+
+added 76 packages, and audited 77 packages in 4s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git commit -m "Instalación de los cinco paquetes más utilizados de NPM"
+[master (root-commit) e97f4f2] Instalación de los cinco paquetes más utilizados de NPM
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ npm uninstall axios dotenv
+
+removed 8 packages, and audited 69 packages in 761ms
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git add .
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ git commit -m "Desinstalación de axios y dotenv"
+On branch master
+nothing to commit, working tree clean
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ npm init -y
+Wrote to C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\SESION2-M6\gestor de paquetes NPM\gestor-NPM\package.json:
+
+{
+  "name": "gestor-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ npm install lodash@^4.17.21
+
+added 1 package, and audited 2 packages in 1s
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ touch index.js datos.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ node index.js
+Autos Únicos: [ 'mazda', 'renault', 'ferrari', 'jeep', 'audi' ]
+Animales Salvajes: [
+  { animal: 'tigre', tipo: 'salvaje', nombre: 'hendrix' },
+  { animal: 'tiburon', tipo: 'salvaje', nombre: 'ray charles' }
+]
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/gestor de paquetes NPM/gestor-NPM (master)
+$ 
